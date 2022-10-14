@@ -1,3 +1,5 @@
+# calculate simple interest
+
 p=int(input("Enter the principle value: "))
 t=int(input("Enter the time of interest: "))
 r=float(input("Enter the rate of interest: "))

@@ -1,3 +1,5 @@
+#calculator
+
 n1=eval(input("Enter the first number :"))
 n2=eval(input("Enter the second number :"))
 ch=input("A-->SUM ,B-->SUBSTRACT ,C-->MULIPLY ,D-->DIVISION ") 
