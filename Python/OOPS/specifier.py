@@ -1,8 +1,9 @@
 # working of protected and private variables 
 class Anurag:
+    'This class is performing the working of private and protected data member'
     nm="Anurag"
-    _bt=2025
-    __age=18
+    _bt=2025                             #protected
+    __age=18                             #private
     def Display(Self):
         print("hyyy")
 class Anurag1(Anurag):
@@ -15,6 +16,8 @@ anu=Anurag()
 anu1=Anurag1()
 print(anu.nm)
 print(anu1.nm)
+# print(help(Anurag))
+print(Anurag.__doc__)                       #print the discription of class
 print(anu1.mob)
 print(anu1._bt)                             # calling protected variable usimg object of child class
 print(anu._Anurag__age)                    # method of calling private varialble (object._Anurag__)
